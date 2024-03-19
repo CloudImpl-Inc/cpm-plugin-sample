@@ -1,0 +1,31 @@
+{
+  "name": "@cloudimpl-inc/cpm-plugin-sample",
+  "version": "1.0.0",
+  "description": "Sample plugin for cpm",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [
+    "cli",
+    "cpm",
+    "plugin"
+  ],
+  "author": "Randil Fernando",
+  "license": "MIT",
+  "repository": "https://github.com/CloudImpl-Inc/cpm-plugin-sample",
+  "homepage": "https://github.com/CloudImpl-Inc/cpm-plugin-sample#readme",
+  "dependencies": {
+    "@cloudimpl-inc/cpm": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.28",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.2"
+  }
+}
