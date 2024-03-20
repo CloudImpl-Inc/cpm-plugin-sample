@@ -4,7 +4,7 @@ const init: CPMPluginCreator = ctx => {
     return {
         name: 'dummy',
         actions: {
-            "task ls": (ctx, input) => {
+            "task list": (ctx, input) => {
                 console.log('list tasks');
                 return {};
             },
